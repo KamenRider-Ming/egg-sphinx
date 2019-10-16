@@ -4,13 +4,10 @@ egg框架的sphinx插件
 # egg-sphinx
 
 [![NPM version][npm-image]][npm-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/egg-sphinx.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-sphinx
-[snyk-image]: https://snyk.io/test/npm/egg-sphinx/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-sphinx
 [download-image]: https://img.shields.io/npm/dm/egg-sphinx.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-sphinx
 
@@ -39,7 +36,7 @@ exports.sphinx = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.wechatAll = {
+exports.sphinx = {
   clients: {
     sphinx1: {
       host: 'localhost',
