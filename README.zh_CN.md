@@ -1,5 +1,5 @@
 # egg-sphinx
-Sphinx plugin for egg
+egg框架的sphinx插件
 
 # egg-sphinx
 
@@ -18,13 +18,13 @@ Sphinx plugin for egg
 Description here.
 -->
 
-## Install
+## 安装
 
 ```bash
 $ npm i egg-sphinx --save
 ```
 
-## Usage
+## 开启插件
 
 ```js
 // {app_root}/config/plugin.js
@@ -33,9 +33,9 @@ exports.sphinx = {
   package: 'egg-sphinx',
 }
 
-[sphinx-promise](https://www.npmjs.com/package/sphinx-promise) is required.
+[sphinx-promise](https://www.npmjs.com/package/sphinx-promise) 依赖于该库.
 ```
-## Configuration
+## 详细配置
 
 ```js
 // {app_root}/config/config.default.js
@@ -53,19 +53,19 @@ exports.wechatAll = {
 }
 ```
 
-see [config/config.default.js](config/config.default.js) for more details.
+请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
-## How
+## 如何使用
 
-For more details, please refer to the following links.
+更多信息，请参照：
 
 [sphinx-promise] (https://github.com/IPRIT/sphinx-promise)
 
 [sphinxapi] (https://github.com/Inist-CNRS/node-sphinxapi)
 
-From the Sphinx official documentation : http://sphinxsearch.com/docs/current.html#api-reference
+Sphinx官方API文档: (http://sphinxsearch.com/docs/current.html#api-reference)
 
-## Example
+## 代码示例
 
 ```js
 const sphinx = app.sphinx.get('sphinxTest')
@@ -74,9 +74,9 @@ const result = await sphinx.query('hello world', {
 })
 ```
 
-## Questions & Suggestions
+## 提问交流
 
-Please open an issue [here](https://github.com/KamenRider-Ming/egg-sphinx/issues).
+请到 [这里](https://github.com/KamenRider-Ming/egg-sphinx/issues) 交流。
 
 ## License
 
